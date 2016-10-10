@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NotificationView.h"
 
 @interface ViewController : UIViewController
 {
-    UIView *notif;
+    NotificationView *notif;
 }
 
 @end
