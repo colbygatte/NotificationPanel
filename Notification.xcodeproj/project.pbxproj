@@ -15,6 +15,7 @@
 		E93DDD671DAB4FAD00AE2868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93DDD651DAB4FAD00AE2868 /* LaunchScreen.storyboard */; };
 		E93DDD721DAB4FAE00AE2868 /* NotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E93DDD711DAB4FAE00AE2868 /* NotificationTests.m */; };
 		E93DDD7D1DAB4FAE00AE2868 /* NotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E93DDD7C1DAB4FAE00AE2868 /* NotificationUITests.m */; };
+		E93DDD8C1DAB52B500AE2868 /* NotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E93DDD8B1DAB52B500AE2868 /* NotificationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E93DDD781DAB4FAE00AE2868 /* NotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93DDD7C1DAB4FAE00AE2868 /* NotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationUITests.m; sourceTree = "<group>"; };
 		E93DDD7E1DAB4FAE00AE2868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E93DDD8A1DAB52B500AE2868 /* NotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationView.h; sourceTree = "<group>"; };
+		E93DDD8B1DAB52B500AE2868 /* NotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				E93DDD5D1DAB4FAD00AE2868 /* ViewController.h */,
 				E93DDD5E1DAB4FAD00AE2868 /* ViewController.m */,
 				E93DDD601DAB4FAD00AE2868 /* Main.storyboard */,
+				E93DDD8A1DAB52B500AE2868 /* NotificationView.h */,
+				E93DDD8B1DAB52B500AE2868 /* NotificationView.m */,
 				E93DDD631DAB4FAD00AE2868 /* Assets.xcassets */,
 				E93DDD651DAB4FAD00AE2868 /* LaunchScreen.storyboard */,
 				E93DDD681DAB4FAD00AE2868 /* Info.plist */,
@@ -276,6 +281,7 @@
 				E93DDD5F1DAB4FAD00AE2868 /* ViewController.m in Sources */,
 				E93DDD5C1DAB4FAD00AE2868 /* AppDelegate.m in Sources */,
 				E93DDD591DAB4FAD00AE2868 /* main.m in Sources */,
+				E93DDD8C1DAB52B500AE2868 /* NotificationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

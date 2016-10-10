@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NotificationView.h
 //  Notification
 //
 //  Created by Colby Gatte on 10/9/16.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-{
-    UIView *notif;
-}
+@interface NotificationView : UIView
+
 
 @end
-
